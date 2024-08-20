@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/crop_finder_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crop Finder"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nitrogen_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the value of Nitrogen (N)"
+        android:textColorHint="@color/hintcolor"
+        android:textColor="@color/black"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/phosphorous_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the value of Phosphorous (P)"
+        android:textColorHint="@color/hintcolor"
+        android:textColor="@color/black"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/potassium_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/hintcolor"
+        android:textColor="@color/black"
+        android:hint="Enter the value of Potassium (K)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/temperature_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the value of Temperature (°C)"
+        android:textColorHint="@color/hintcolor"
+        android:textColor="@color/black"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/humidity_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/hintcolor"
+        android:textColor="@color/black"
+        android:hint="Enter the value of Humidity (%)"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/recommended_crop_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/primary_text"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/crop_image"
+        android:layout_width="274dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:visibility="visible" />
+
+</LinearLayout>
